@@ -1,66 +1,30 @@
 import SaleCard from "./SaleCard";
+import Video1 from '../../asset/video/video1.mp4'
+import Video2 from '../../asset/video/video2.mp4'
+import Video3 from '../../asset/video/video3.mp4'
+import Video4 from '../../asset/video/video4.mp4'
 
 const Market = () => {
     const data = [
         {
-            title:'hello hellohi',
+            title:'Creator Card #1',
             link:"https://www.sandbox.game/en/shop/",
-            image:"https://api.sandbox.game/assets/public/7933cc4c-8a6f-4ffc-9f93-3da9c32de4f2/preview?bafkreiheqsds5boe2bxg5bbtt2xbimmtzgcolctysgnc7kttmoormiwdje"
+            video:Video1
         },
         {
-            title:'Hurrey slfn hellohi',
+            title:'Creator Card #2',
             link:"https://www.sandbox.game/en/shop/",
-            image:"https://i.gadgets360cdn.com/large/cryptopunk_7610_larvalabs_small_1629797182539.jpg"
+            video:Video2
         },
         {
-            title:'hello hellohi',
+            title:'Creator Card #3',
             link:"https://www.sandbox.game/en/shop/",
-            image:"https://api.sandbox.game/assets/public/7933cc4c-8a6f-4ffc-9f93-3da9c32de4f2/preview?bafkreiheqsds5boe2bxg5bbtt2xbimmtzgcolctysgnc7kttmoormiwdje"
+            video:Video3
         },
         {
-            title:'Hurrey slfn hellohi',
+            title:'Creator Card #4',
             link:"https://www.sandbox.game/en/shop/",
-            image:"https://i.gadgets360cdn.com/large/cryptopunk_7610_larvalabs_small_1629797182539.jpg"
-        },
-        {
-            title:'hello hellohi',
-            link:"https://www.sandbox.game/en/shop/",
-            image:"https://api.sandbox.game/assets/public/7933cc4c-8a6f-4ffc-9f93-3da9c32de4f2/preview?bafkreiheqsds5boe2bxg5bbtt2xbimmtzgcolctysgnc7kttmoormiwdje"
-        },
-        {
-            title:'Hurrey slfn hellohi',
-            link:"https://www.sandbox.game/en/shop/",
-            image:"https://i.gadgets360cdn.com/large/cryptopunk_7610_larvalabs_small_1629797182539.jpg"
-        },
-        {
-            title:'hello hellohi',
-            link:"https://www.sandbox.game/en/shop/",
-            image:"https://api.sandbox.game/assets/public/7933cc4c-8a6f-4ffc-9f93-3da9c32de4f2/preview?bafkreiheqsds5boe2bxg5bbtt2xbimmtzgcolctysgnc7kttmoormiwdje"
-        },
-        {
-            title:'Hurrey slfn hellohi',
-            link:"https://www.sandbox.game/en/shop/",
-            image:"https://i.gadgets360cdn.com/large/cryptopunk_7610_larvalabs_small_1629797182539.jpg"
-        },
-        {
-            title:'hello hellohi',
-            link:"https://www.sandbox.game/en/shop/",
-            image:"https://api.sandbox.game/assets/public/7933cc4c-8a6f-4ffc-9f93-3da9c32de4f2/preview?bafkreiheqsds5boe2bxg5bbtt2xbimmtzgcolctysgnc7kttmoormiwdje"
-        },
-        {
-            title:'Hurrey slfn hellohi',
-            link:"https://www.sandbox.game/en/shop/",
-            image:"https://i.gadgets360cdn.com/large/cryptopunk_7610_larvalabs_small_1629797182539.jpg"
-        },
-        {
-            title:'hello hellohi',
-            link:"https://www.sandbox.game/en/shop/",
-            image:"https://api.sandbox.game/assets/public/7933cc4c-8a6f-4ffc-9f93-3da9c32de4f2/preview?bafkreiheqsds5boe2bxg5bbtt2xbimmtzgcolctysgnc7kttmoormiwdje"
-        },
-        {
-            title:'Hurrey slfn hellohi',
-            link:"https://www.sandbox.game/en/shop/",
-            image:"https://i.gadgets360cdn.com/large/cryptopunk_7610_larvalabs_small_1629797182539.jpg"
+            video:Video4
         },
     ]
     return (
