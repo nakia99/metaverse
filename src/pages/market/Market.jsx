@@ -70,7 +70,7 @@ const Market = () => {
                 <div className="df row grid-row">
                 {data && data.length>0 && data.map((item,index)=>{
                     return (
-                        <div className="grid-item df">
+                        <div className="grid-item df" key={index}>
                             <SaleCard data={item} />
                         </div>
                     )
