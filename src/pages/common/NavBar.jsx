@@ -21,9 +21,9 @@ const NavBar = (props) => {
             <div className="df row" style={{ height: "100vh" }}>
 
 
-                <header className="df row row-center bg-primary" onClick={()=>{setnavBarVisiblity(!navbarVisiblity)}}>
+                <header className="df row row-center bg-primary" >
                     {windowSize.width < 900 && 
-                    <button>
+                    <button onClick={()=>{setnavBarVisiblity(!navbarVisiblity)}}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                             <g clipPath="url(#clip0)">
                                 <path d="M6.93408 9.33319H24.2674" stroke="white" strokeWidth="3" strokeMiterlimit="1" strokeLinecap="round" />
