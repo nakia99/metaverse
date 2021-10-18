@@ -7,9 +7,9 @@ const Home = () => {
             <div className="home-page-box">
                 <h1 className="txt-large">Intrelity</h1>
                 <h3 className="txt-medium">usbjkwd asdkbsf sdj usbjkwd asdkbsf sdjusbjkwd asdkbsf sdj usbjkwd asdkbsf sdjusbjkwd asdkbsf sdj</h3>
-                <Link className="btn center" to="/">
+                <a href="" className="btn center" to="/">
                     Go Somewhere
-                </Link>
+                </a>
             </div>
         </div>
     )
