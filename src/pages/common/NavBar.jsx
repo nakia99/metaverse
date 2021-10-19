@@ -10,6 +10,8 @@ import Home_hoverIcon from '../../asset/images/home_hover.png'
 import Market_hoverIcon from '../../asset/images/market_hover.png'
 import about_hoverIcon from '../../asset/images/about_hover.png'
 import Me_hoverIcon from '../../asset/images/me_hover.png'
+import CommunityBanner from './CommunityBanner';
+import Footer from './Footer';
 const NavBar = (props) => {
     const location = useLocation();
     const [windowSize, setWindowSize] = useState({ height: window.innerHeight, width: window.innerWidth })
@@ -97,7 +99,11 @@ const NavBar = (props) => {
                     </ul>
                 </div>
 
-                <main style={{ height: windowSize.height - 70 + "px", width: windowSize.width < 900 ? windowSize.width + "px" : windowSize.width - 100 + "px" }}>{props.children}</main>
+                <main style={{ height: windowSize.height - 70 + "px", width: windowSize.width < 900 ? windowSize.width + "px" : windowSize.width - 100 + "px" }}>
+                    {props.children}
+                    <CommunityBanner />
+                    <Footer />
+                </main>
             </div>
         </>
     )

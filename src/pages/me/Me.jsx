@@ -90,8 +90,6 @@ const Me = () => {
                 {isloading && <div>Loading...</div>}
                 </div>
             </div>
-            <CommunityBanner />
-            <Footer />
         </>
     )
     }
