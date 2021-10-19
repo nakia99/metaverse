@@ -1,0 +1,33 @@
+
+  .img_container {
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .center-right {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+  }
+
+  .join-btn:hover{
+    opacity: 1;
+    background-color: #48d4ba;
+  }
+
+  .join-btn{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 2px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 200px;
+    font-size: 18px;
+    opacity: 0.5;
+  }

@@ -3,6 +3,8 @@ import Video1 from '../../asset/video/video1.mp4'
 import Video2 from '../../asset/video/video2.mp4'
 import Video3 from '../../asset/video/video3.mp4'
 import Video4 from '../../asset/video/video4.mp4'
+// import CommunityBanner from "../common/CommunityBanner";
+// import Footer from "../common/Footer";
 
 const Market = () => {
     const data = [
@@ -28,8 +30,9 @@ const Market = () => {
         },
     ]
     return (
+        <>
         <div className="fit-content df row-center market-container">
-                <h1 className=" txt-large center df">Weclome to NFT Services</h1>
+                <h1 className=" txt-large center df">NFTs</h1>
 
                 <div className="df row grid-row">
                 {data && data.length>0 && data.map((item,index)=>{
@@ -41,6 +44,9 @@ const Market = () => {
                 })}
                 </div>
         </div>
+        {/* <CommunityBanner />
+        <Footer /> */}
+        </>
     )
 }
 export default Market;
