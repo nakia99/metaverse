@@ -20,7 +20,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-        "source-map-loader": "^1.0.0",
+        "source-map-loader": "^1.0.0"
       },
   "eslintConfig": {
     "extends": [
