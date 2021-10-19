@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import bgImage from '../../asset/images/homebg.jpeg'
 const Home = () => {
     return (
@@ -8,7 +8,7 @@ const Home = () => {
             <div className="home-page-box">
                 <h1 className="txt-large">Intrelity</h1>
                 <h3 className="txt-medium">usbjkwd asdkbsf sdj usbjkwd asdkbsf sdjusbjkwd asdkbsf sdj usbjkwd asdkbsf sdjusbjkwd asdkbsf sdj</h3>
-                <a href="" className="btn center" to="/">
+                <a href="https://hubs.mozilla.com/" className="btn center">
                     Go Somewhere
                 </a>
             </div>

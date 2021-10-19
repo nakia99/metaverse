@@ -45,7 +45,7 @@ const NavBar = (props) => {
                                 </defs>
                             </svg>
                         </button>}
-                    <img src={Logo} alt="" />
+                    <img src={Logo} alt="Interality logo" />
                 </header>
 
                 <div className="nav bg-primary" style={{ transform: navbarVisiblity ? "translateX(0%)" : "translateX(-100%)" }}>
@@ -84,7 +84,7 @@ const NavBar = (props) => {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/me" className={location.pathname == "/me" ? "center df active" : "center df"}>
+                            <Link to="/me" className={location.pathname === "/me" ? "center df active" : "center df"}>
                                 <div className="icon">
                                     <img src={MeIcon} className="fit-content" alt="" />
                                 </div>

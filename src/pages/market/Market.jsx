@@ -8,22 +8,22 @@ const Market = () => {
     const data = [
         {
             title:'Creator Card #1',
-            link:"https://www.sandbox.game/en/shop/",
+            link:"https://opensea.io/assets",
             video:Video1
         },
         {
             title:'Creator Card #2',
-            link:"https://www.sandbox.game/en/shop/",
+            link:"https://opensea.io/assets",
             video:Video2
         },
         {
             title:'Creator Card #3',
-            link:"https://www.sandbox.game/en/shop/",
+            link:"https://opensea.io/assets",
             video:Video3
         },
         {
             title:'Creator Card #4',
-            link:"https://www.sandbox.game/en/shop/",
+            link:"https://opensea.io/assets",
             video:Video4
         },
     ]
@@ -39,8 +39,6 @@ const Market = () => {
                         </div>
                     )
                 })}
-                    
-                    
                 </div>
         </div>
     )

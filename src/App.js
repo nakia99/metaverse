@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import NavBar from './pages/common/NavBar';
 import { Route, Switch } from 'react-router';
